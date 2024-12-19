@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to My Portfolio</h1>
+    <h1>My Portfolio</h1>
     <h2>Personalized Project Management for Growing Businesses</h2>
     <p>Empowering businesses to thrive through tailored project management solutions.</p>
     <a href="services.html" class="btn">Learn About My Services</a>
