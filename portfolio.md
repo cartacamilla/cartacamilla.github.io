@@ -1,10 +1,10 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -13,14 +13,14 @@
   <section>
     <div class="project">
       <h2>Project 1: Eye-Tracking Product Demonstrator</h2>
-      <p><strong>Client/Company:</strong> ams OSRAM</p>
+      <p><strong>Company:</strong> ams OSRAM</p>
       <p><strong>Objective:</strong> Develop an edge product demonstrator for eye-tracking technology.</p>
       <p><strong>Role:</strong> Project Manager</p>
       <p><strong>Achievements:</strong></p>
       <ul>
         <li>Led cross-team collaboration, ensuring timely software delivery.</li>
         <li>Managed a multi-million-dollar budget with 10% cost savings.</li>
-        <li>Delivered a functional prototype to select clients.</li>
+        <li>Delivered a functional prototype to selected clients.</li>
       </ul>
       <p><strong>Tools/Techniques:</strong> Agile, Jira, Python.</p>
     </div>
