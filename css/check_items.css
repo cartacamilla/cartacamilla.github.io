@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  position: relative;
+  padding-left: 1.5em;  /* space to preserve indentation on wrap */
+}
+ul li.with-checkbox::before {
+    content: '\f046'; /* Unicode for FontAwesome check-square-o */
+    font-family: 'Font Awesome 5 Free'; /* Specify FontAwesome font family */
+    font-weight: 900; /* Make sure the icon is visible (this is for FontAwesome 5) */
+    margin-right: 10px; /* Space between the icon and the list item text */
+}
