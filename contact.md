@@ -1,18 +1,24 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+---
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ "./css/styles.css" | relative_url }}">
   <title>Contact</title>
-  <link rel="stylesheet" href="css/styles.css">
+  
 </head>
 <body>
   <header>
-    <h1>Contact Me</h1>
+    <h1>Contact Me!</h1>
   </header>
   <section>
     <p>I'd love to hear from you!</p>
     <p>Feel free to reach out with any questions or project inquiries.</p>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
+    <form action="https://formspree.io/f/xvggpkvz" method="POST">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
       <label for="email">Email:</label>
