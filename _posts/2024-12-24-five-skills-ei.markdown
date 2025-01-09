@@ -3,7 +3,7 @@ layout: post
 read_time: true
 show_date: true
 title: The 5 crucial skills for leaders to master Emotional Intelligence
-date:   2024-12-22 13:32:20 -0600
+date:   2024-12-22 13:32:20 -0000
 description: The 5 crucial skills for leaders to master Emotional Intelligence
 img: /posts/20241222/EI.jpg 
 tags: [project management, communication]
