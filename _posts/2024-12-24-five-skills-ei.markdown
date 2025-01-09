@@ -130,6 +130,6 @@ Mastering emotional intelligence is a journey, not a destination. By developing 
 
 So, what’s your first step in leveling up your EI? 
 
-You can start with this FREE template I made just for you: LINK
+You can start with this FREE template I made just for you: [LINK](https://1drv.ms/w/c/6a26a0e3a3d932d3/EXJ3etJM_J9Gon8qkiEvjxcBxsp7-qLJegwdDLpjUI-XHA?e=vTojeO)
 
 Start small, stay consistent, and watch the impact ripple through your team and business. You’ve got this!
