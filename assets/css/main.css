@@ -439,7 +439,7 @@ img {
   max-width: 100%;
 }
 a {
-  color: var(--text);
+  color: var(--accent-dark);
   -webkit-transition: all 1s;
   transition: all 1s;
   -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
