@@ -983,24 +983,31 @@ svg.menu-icon-house {
 }
 .footer-nav {
   display: flex;
-}
-.footer-nav div {
-  display: flex;
-  padding: 3px 5px;
-  flex: 1;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-.footer-nav a {
-  color: var(--grey4);
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: var(--font2-bold);
-  font-family: var(--font2);
-}
-.footer-wrapper a:hover {
-  opacity: 0.6;
+  div {
+    display: flex;
+    padding: 3px 5px;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    &.contact-footer {
+      border-style: solid;
+      border-radius: 1em;
+      border-width: 0.5px;
+      border-color: var(--accent);
+      background: var(--grey2);
+    }
+  }
+  a {
+    color: var(--grey4);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: var(--font2-bold);
+    font-family: var(--font2);
+    &:hover {
+      opacity: 0.6;
+    }
+  }
 }
 @media (max-width: 640px) {
   .footer-wrapper {
