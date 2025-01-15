@@ -130,7 +130,8 @@ Mastering emotional intelligence is a journey, not a destination. By developing 
 
 So, what’s your first step in leveling up your EI? 
 
-You can start with this FREE template I made just for you: [The Emotional Journal Template + EI Lexicon ](https://1drv.ms/w/c/6a26a0e3a3d932d3/EXJ3etJM_J9Gon8qkiEvjxcBxsp7-qLJegwdDLpjUI-XHA?e=vTojeO)
+You can start with this FREE template I made just for you:
+<a href="https://1drv.ms/w/c/6a26a0e3a3d932d3/EXJ3etJM_J9Gon8qkiEvjxcBxsp7-qLJegwdDLpjUI-XHA?e=vTojeO" target="_blank">The Emotional Journal Template + EI Lexicon</a>
 
 Try to use the journal for a week by logging your emotions throughout the day. If like me you have trouble identifying and voicing your emotions apart from "happy" and "angry", I have provided a list of emotion terms that should help you fit the best term to the current emotion. Help yourself by reading it, downloading it or modifying it to fit you as you please! 
 
