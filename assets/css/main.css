@@ -16,7 +16,7 @@ html {
   --shadow: rgba(71, 114, 122, 0.3);
   --github: #333;
   --font1: "Lora", charter, Georgia, Cambria, "Times New Roman", Times, serif; /* body text */
-  --font2: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; /* headers and titles   */
+  --font2: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, serif; /* headers and titles   */
   --font1-light: 400;
   --font1-regular: 400;
   --font1-bold: 600;
@@ -209,6 +209,9 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+  width: 300px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /**
@@ -2425,5 +2428,78 @@ a.read-more:hover {
   .adsbygoogle {
     display: none !important;
     height: 1px !important;
+  }
+}
+
+.form-header {
+  text-align: center;
+}
+
+.contact-form {
+  width: 90%;
+  padding-inline: 5em;
+  .form-element {
+    width: 90%;
+    padding: 0.5rem;
+    justify-content: center;
+    & input,
+    & textarea {
+      width: 500px;
+    }
+    & textarea {
+      height: 300px;
+    }
+  }
+  .label {
+    font-family: var(--font2);
+  }
+  .description {
+    width: 90%;
+    padding-inline: 1rem;
+    font-size: 14px;
+    color: var(--grey3);
+    font-family: var(--font2);
+  }
+  & label.required:after {
+    content: " *";
+    color: red;
+    font-size: 0.787rem;
+  }
+
+  .form-send-button .send-button {
+    /* margin: 0; */
+    /* position: absolute; */
+    top: 50%;
+    -ms-transform: translateX(30%);
+    transform: translateX(30%);
+    border: none;
+    color: var(--accent-dark);
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+}
+
+.thanks-container {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  .home-button {
+    border: none;
+    color: var(--accent-dark);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    &:hover {
+      background-color: var(--accent-dark);
+      color: white;
+    }
   }
 }
