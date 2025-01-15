@@ -1856,6 +1856,35 @@ img + br + small {
   margin: 0;
 }
 
+.about-contact {
+  position: relative;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.about-contact .contact-button {
+  border: none;
+  color: var(--accent-dark);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.about-contact .contact-button:hover {
+  background-color: var(--accent-dark);
+  color: white;
+}
+
+.about-contact .subtitle {
+  font-weight: var(--font1-light);
+  margin: 0;
+}
+
 .contact-list {
   margin: 0;
   padding: 0;
@@ -2151,6 +2180,21 @@ a.read-more:hover {
   .about-body .contact-list li a {
     font-size: 28px;
   }
+
+  .about-body:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: block;
+    height: 1px;
+    width: 80px;
+    background-color: var(--accent-dark);
+  }
+
   .author-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
