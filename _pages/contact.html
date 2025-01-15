@@ -6,7 +6,39 @@ permalink: contact:output_ext
 
 {% include calculate_relative_base.html %} {% include escape-404.html %}
 <div class="small-wrapper">
-
-
+  <section class="form-header">
+    <p>
+      I'd love to hear from you! Feel free to reach out with any questions or
+      project inquiries.
+    </p>
+  </section>
+  <div class="contact-form">
+    <form action="https://formspree.io/f/xvggpkvz" method="POST">
+      <div class="form-element label" id="Name-label">
+        <label for="name" class="required">Your Name</label>
+      </div>
+      <div class="description">First and last name please :)</div>
+      <div class="form-element input" id="Name-input">
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-element label" id="Email-label">
+        <label for="email" class="required">Your Email</label>
+      </div>
+      <div class="form-element input" id="Email-input">
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-element label" id="Message-label">
+        <label for="message" class="required">Message</label>
+      </div>
+      <div class="form-element input" id="Message-input">
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <div class="form-send-button">
+        <a href="{{ relativebase }}thanks.html">
+          <button class="send-button" type="submit">Send</button>
+        </a>
+      </div>
+    </form>
+  </div>
 </div>
 <!-- End Small Wrapper -->
