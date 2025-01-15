@@ -996,6 +996,10 @@ svg.menu-icon-house {
       border-width: 0.5px;
       border-color: var(--accent);
       background: var(--grey2);
+      &:hover {
+        border-color: var(--accent-dark);
+        background: var(--grey1);
+      }
     }
   }
   a {
