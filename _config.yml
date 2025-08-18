@@ -1,5 +1,5 @@
 # Site settings
-title: Camilla Carta | DPM
+title: Camilla Carta
 description: "Combining Project Management with Tech Expertise." # this means to ignore newlines until "baseurl:"
 permalink: ":title:output_ext"
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -29,8 +29,8 @@ author-pic: Myself_dark.png
 about-author: Project manager, software engineer, freelancer, passionate learner. I help small businesses grow by managing projects and implementing tools that streamline their workflows, so that entrepreneurs can focus on the important stuff, like scaling up and taking well deserved time off.
 
 # Contact links
-email: camilla.carta@outlook.com # Add your Email address
-phone: # Add your Phone number
+# email: camilla.carta@outlook.com # Add your Email address
+# phone: # Add your Phone number
 website: https://cartacamilla.github.io # Add your website
 linkedin: camilla-carta # Add your Linkedin handle
 github: cartacamilla # Add your Github handle
