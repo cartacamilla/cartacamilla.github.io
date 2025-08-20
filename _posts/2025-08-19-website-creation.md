@@ -88,7 +88,6 @@ bundle lock --add-platform x86_64-linux
 
 - Install Jekyll, Bundler and Protobuf:
 
-{% include code_header.html %}
 ```bash
 gem install jekyll bundler google-protobuf
 ```
