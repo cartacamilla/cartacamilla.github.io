@@ -64,10 +64,7 @@ echo 'export PATH=$PATH:$HOME/.local/share/gem/ruby/3.4.0/bin/' >> ~/.profile
 
 # Specific to Ubuntu Linux
 echo '# Install Ruby Gems to ~/gems' >> ~/.profile
-echo 'export GEM_HOME="$HOME/gems"' >> ~/.profileecho '# Install Ruby Gems to ~/gems' >> ~/.profile
 echo 'export GEM_HOME="$HOME/gems"' >> ~/.profile
-echo 'export PATH="$PATH:$HOME/gems/bin"' >> ~/.profile
-
 echo 'export PATH="$PATH:$HOME/gems/bin"' >> ~/.profile
 
 source ~/.profile
